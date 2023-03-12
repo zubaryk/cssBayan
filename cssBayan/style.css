@@ -39,7 +39,7 @@ padding: 15px 50px;
     width: 300px;
     height: 300px;
     display: block;
-    margin: 25px auto;
+    margin: 25px 150px;
 }
 .nav-img-second {
     width: 300px;
@@ -92,6 +92,10 @@ padding: 15px 50px;
 }
 .first {
     color: black;
+    display: block;
+}
+.first:hover .nav-img-first {
+    display: none;
 }
 .second:hover .nav-img-second {
     content: url(assets/cute-sloth-yoga.webp);
@@ -150,6 +154,13 @@ padding: 15px 50px;
 .fifth:hover ~ .sign-plus-fifth {
     display: none;
 }
+.first:hover + .sign-cross-first {
+    display: none;
+}
+.first:hover ~ .sign-plus-first {
+    display: block;
+}
+
 
 
 
