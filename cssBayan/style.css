@@ -43,9 +43,8 @@ padding: 15px 50px;
 .nav-img-second {
     width: 300px;
     height: 300px;
-    display: block;
-    margin: 25px auto;
     display: none;
+    margin: 25px auto;
 }
 .sign-cross {
     width: 35px;
@@ -74,13 +73,56 @@ padding: 15px 50px;
 .first {
     color: black;
 }
-.second:hover {
+.second:hover .nav-img-second {
     content: url(assets/cute-sloth-yoga.webp);
     display: block;
-    margin: 25px auto;
+    margin: 25px 150px;
     width: 300px;
     height: 300px;
+    transition: 1s;
 }
+.second .nav-img-second {
+    display: none;
+}
+.third:hover .nav-img-third {
+    content: url(assets/cute-mom-sloth.webp);
+    display: block;
+    margin: 25px 150px;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+.third .nav-img-third {
+    display: none;
+}
+.fourth:hover .nav-img-fourth {
+    content: url(assets/cute-sloth-holding.webp);
+    display: block;
+    margin: 25px 150px;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}  
+.fourth .nav-img-fourth {
+    display: none;
+}
+.fifth:hover .nav-img-fifth {
+    content: url(assets/cute-sloth-playing-skateboard.webp);
+    display: block;
+    margin: 25px 150px;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+.fifth .nav-img-fifth {
+    display: none;
+}
+
+
+
+
+
+
 
 
 
