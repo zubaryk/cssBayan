@@ -1,6 +1,7 @@
 
 .container {
     width: 700px;
+    height: auto;
     background-color: aqua;
     margin: 0 auto;
 }
@@ -46,17 +47,36 @@ padding: 15px 50px;
     display: none;
     margin: 25px auto;
 }
-.sign-cross {
+.sign-cross,
+.sign-cross-second,
+.sign-cross-third,
+.sign-cross-fourth,
+.sign-cross-fifth {
     width: 35px;
     height: 35px;
-
+    display: none;
+}
+.sign-cross-first {
+    width: 35px;
+    height: 35px;
+    }
+.sign-plus,
+.sign-plus-second,
+.sign-plus-third,
+.sign-plus-fourth,
+.sign-plus-fifth {
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.sign-plus-first {
+    width: 35px;
+    height: 35px;
+    display: none;
 }
 .description {
     display: flex;
     justify-content: space-between;
-}
-.sign-plus {
-    display: none;
 }
 .hidden-block {
     opacity: 0;
@@ -117,6 +137,23 @@ padding: 15px 50px;
 .fifth .nav-img-fifth {
     display: none;
 }
+
+.second:hover + .sign-cross-second,
+.third:hover + .sign-cross-third,
+.fourth:hover + .sign-cross-fourth,
+.fifth:hover + .sign-cross-fifth {
+    display: block;
+}
+.second:hover ~ .sign-plus-second,
+.third:hover ~ .sign-plus-third,
+.fourth:hover ~ .sign-plus-fourth,
+.fifth:hover ~ .sign-plus-fifth {
+    display: none;
+}
+
+
+
+
 
 
 
