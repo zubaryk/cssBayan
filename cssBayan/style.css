@@ -90,12 +90,17 @@ padding: 15px 50px;
     color: black;
     transition: 1s;
 }
-.first {
+.first  {
     color: black;
     display: block;
 }
 .first:hover .nav-img-first {
+    content: url(assets/cute-sloth-working.webp);
     display: none;
+    margin: 25px 150px;
+    width: 300px;
+    height: 300px;
+    transition: 1s;
 }
 .second:hover .nav-img-second {
     content: url(assets/cute-sloth-yoga.webp);
@@ -159,6 +164,14 @@ padding: 15px 50px;
 }
 .first:hover ~ .sign-plus-first {
     display: block;
+}
+.nav-img-second:active,
+.nav-img-first:active,
+.nav-img-third:active,
+.nav-img-fourth:active,
+.nav-img-fifth:active {
+    opacity: 0.03;
+    transition: 3s;
 }
 
 
