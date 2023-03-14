@@ -20,6 +20,7 @@ padding: 15px 50px;
     text-decoration: none;
     color: blueviolet;
 }
+
 .nav-item {
         font-size: 25px;
         font-family: Inter-Regular;
@@ -28,24 +29,19 @@ padding: 15px 50px;
 .nav-list {
     list-style: none;
 }
-.nav-img {
-    width: 300px;
-    height: 300px;
-    display: block;
-    margin: 25px auto;
-    display: none;
-}
 .nav-img-first {
     width: 300px;
     height: 300px;
     display: block;
     margin: 25px 150px;
 }
-.nav-img-second {
+.nav-img-second
+.nav-img-third
+.nav-img-fourth
+.nav-img-fifth {
     width: 300px;
     height: 300px;
     display: none;
-    margin: 25px auto;
 }
 .sign-cross,
 .sign-cross-second,
@@ -90,12 +86,13 @@ padding: 15px 50px;
     color: black;
     transition: 1s;
 }
-.first  {
+.first {
     color: black;
+}
+.first .nav-img-first   {
     display: block;
 }
 .first:hover .nav-img-first {
-    content: url(assets/cute-sloth-working.webp);
     display: none;
     margin: 25px 150px;
     width: 300px;
@@ -172,6 +169,13 @@ padding: 15px 50px;
 .nav-img-fifth:active {
     opacity: 0.03;
     transition: 3s;
+}
+
+
+@media screen and (max-width: 320px) {
+    
+
+
 }
 
 
